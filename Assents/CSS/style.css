@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/*nesta parte aqui temos o reset da página*/
+* {
+    /* box-sizing: border-box; */
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-image: -moz-linear-gradient(#457983, #578b95);
+    /* background-color: #e1ecd6; */
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+header {
+    /* background-color: #7cd7cf */
+    height: 250px;
+}
+
+h1 {
+    color: #7aafb9;
+    font-size: 50px;
+    padding: 0;
+}
+
+main {
+    /* background-color: #f3daaa */
+    height: auto;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #f3d5a5;
+    height: 75px;
+}
+
+img {
+    width: 1200px;
+    height: 400px;
+}
