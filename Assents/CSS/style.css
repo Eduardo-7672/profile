@@ -2,7 +2,7 @@
 
 /*nesta parte aqui temos o reset da página*/
 * {
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -10,26 +10,30 @@
 
 body {
     background-image: -moz-linear-gradient(#457983, #578b95);
-    /* background-color: #e1ecd6; */
+    background-color: #778eb0;
     padding: 0;
     margin: 0;
     border: 0;
 }
 
 header {
-    /* background-color: #7cd7cf */
-    height: 250px;
+    background-color:
 }
 
 h1 {
-    color: #7aafb9;
-    font-size: 50px;
+    color: black;
+    font-size: 60px;
     padding: 0;
 }
 
+nav {
+    height: 30px;
+    background-color: ##778eb0;
+}
+
 main {
-    /* background-color: #f3daaa */
-    height: auto;
+    background-color: #f3daaa
+    height: auto
 }
 
 a {
@@ -43,11 +47,15 @@ a:hover {
 }
 
 footer {
-    background-color: #f3d5a5;
+    background-color: #8195b3;
     height: 75px;
 }
 
 img {
-    width: 1200px;
-    height: 400px;
+    width: 20%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
 }
