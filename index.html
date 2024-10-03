@@ -4,52 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Melancolic-Night</title>
-    <link rel="mind-cloud" href="/Assents/mind-cloud.png" type="image/x-icon">
-    <link rel="stylesheet" href="/assents/css/style.css">
+    <title>BMW</title>
+    <link rel="shortcut icon" href="./assets/BMw-logo 2.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/CSS/style-home.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+
 </head>
 
-<body>
-    <header>
-        <!--Esse tipo de tag serve para comentar um código-->
-        <h1>Night Post</h1>
 
+
+<body onresize="mudouTamanho()">
+    <header>
+        <h1>BMW M5 F90</h1>
     </header>
-    <nav>
-        <a href="index.html" pagina 01> </a>
-    </nav>
+
+    <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
+        menu
+    </span>
+
+    <menu id="itens">
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="versões.html">Versões</a></li>
+            <li><a href="comparação.html">Comparação</a></li>
+            <li><a href="história.html">História</a></li>
+        </ul>
+    </menu>
 
     <main>
+        <div class="container" id="container">
+            <img src="./assets/M5-F90 competition.png" alt="teste com celular" id="mobile">
 
-       
-        <!--O h1 serve para transformar uma frase em titulo-->
-        <!--O parágrafo serve para separar o texto e deixar um espaço entre ele e o título-->
-        <div class="container">
-            <img src="/Assents/melancolica-github 2.png" alt="width=60%" height="100px">
-            <p>
-                Imagens melancólicas têm o poder de evocar uma sensação profunda de tristeza e introspecção, capturando
-                a
-                essência de momentos e cenários que refletem a fragilidade da experiência humana. Estas imagens
-                frequentemente apresentam paisagens solitárias, cores desbotadas e elementos de abandono, criando uma
-                atmosfera que ressoa com a vulnerabilidade e a reflexão. Seja através de uma chuva suave que cai sobre
-                uma
-                cidade deserta ou uma luz fraca que ilumina um quarto vazio, as imagens melancólicas servem como um
-                espelho
-                para a alma, permitindo que o espectador se conecte com sentimentos de saudade e introspecção. Elas não
-                apenas retratam a tristeza, mas também oferecem uma oportunidade para encontrar beleza na imperfeição e
-                na
-                quietude.
-            </p> 
+            <img src="./assets/M5-F90 competition.png" alt="teste com celular" id="tablet">
+
+            <img src="./assets/M5-F90 competition.png" alt="versão impressora" id="print">
+
+            <img src="./assets/M5-F90 competition.png" alt="teste com desktop" id="pc">
+
+            <img src="./assets/M5-F90 competition.png" alt="teste com smart tv" id="tv">
+
+
+
+            <article>
+                <h2>BMW M5 F90</h2>
+                <p>
+                    A BMW M5 F90 é uma verdadeira obra-prima da engenharia automotiva. Lançada em 2017, essa berlina
+                    de alto desempenho combina potência, luxo e tecnologia de ponta. Sob o capô, ela abriga um motor V8
+                    biturbo de 4,4 litros, que entrega impressionantes 600 cv (ou 617 cv na versão Competition). Isso
+                    permite que a M5 acelere de 0 a 100 km/h em apenas 3,4 segundos!</p>
+                <p>
+                    O design é agressivo e elegante, com linhas aerodinâmicas que ressaltam sua performance. O sistema
+                    de
+                    tração integral xDrive proporciona uma aderência excepcional, permitindo que você aproveite todo o
+                    potencial do carro em qualquer condição de estrada. Além disso, o interior é repleto de materiais de
+                    alta qualidade e tecnologia avançada, garantindo conforto e conectividade.
+
+                    Combinando desempenho, estilo e praticidade, a M5 F90 é, sem dúvida, um ícone no segmento das sedãs
+                    esportivas!
+                </p>
+
+            </article>
         </div>
     </main>
 
-    <main>
-
-    </main>
     <footer>
-        2024-Eduardo
+        <p>
+            @Eduardo - 2024
+        </p>
     </footer>
+
+
+
 </body>
 
+<script src="./assets/js/scriptmq.js"></script>
 
 </html>
