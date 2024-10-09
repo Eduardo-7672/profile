@@ -70,7 +70,7 @@ menu {
     list-style-type: none;
     width: 90vw;
     margin: auto;
-
+    display: none;
 }
 
 menu>ul {

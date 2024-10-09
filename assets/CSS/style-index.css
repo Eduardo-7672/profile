@@ -33,7 +33,7 @@ body {
 }
 
 header {
-    background-color: #312af1;
+    background-color: #21203f;
     margin-top: 3px;
     border-radius: 7px 7px 0px 0px;
     width: 90vw;
@@ -50,7 +50,7 @@ header>h1 {
 }
 
 #burger {
-    background-color: #312af1;
+    background-color: #21203f;
     display: block;
     color: whitesmoke;
     text-align: center;
@@ -82,7 +82,7 @@ menu>ul>li>a {
     padding: 7px;
     text-decoration: none;
     text-align: center;
-    background-color: #312af1;
+    background-color: #21203f;
     border-radius: 0px 0px 0px 0px;
     color: whitesmoke;
     margin: auto;
@@ -108,7 +108,7 @@ main {
 
 article>h2 {
     padding-bottom: 17px;
-    padding: 17px;
+
 }
 
 article>p {
@@ -132,9 +132,8 @@ footer {
 img {
     display: block;
     margin: auto;
-    width: 100%;
+    width: 85%;
     height: 90%;
-    padding: 20px;
 }
 
 img#mobile {
@@ -179,6 +178,7 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
         width: 90vw;
         margin: auto;
         background-color: #21203f;
+        
     }
 
     menu>ul>li {
@@ -264,7 +264,6 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
 
     article>h2 {
         padding-bottom: 17px;
-
     }
 
     article>p {
@@ -276,11 +275,6 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
     footer {
         width: 90vw;
         margin: auto;
-    }
-
-    img {
-        width: 580px;
-        height: 60%;
     }
 
     img#mobile {
@@ -323,12 +317,12 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
 
     menu {
         display: block;
-        background-color: #312af1;
+        background-color: #21203f;
     }
 
     menu>ul>li {
         display: inline-block;
-        background-color: #312af1;
+        background-color: #21203f;
     }
 
     main {
@@ -338,19 +332,21 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
 
     article>h2 {
         padding-bottom: 17px;
+        padding: 20px;
     }
 
     article>p {
-        text-align: center;
+        text-align: justify;
         margin-bottom: 17px;
         text-indent: 17px;
+        padding: 15px;
     }
 
     footer {
         width: 90vw;
         margin: auto;
     }
-    
+
     .container {
         display: flex;
         align-items: center;
@@ -358,10 +354,9 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
     }
 
     img {
-        width: 450px;
+        width:650px;
         height: 70%;
-        padding: 15px;
-        margin: -5px;
+        padding: 5px;
     }
 
     img#mobile {

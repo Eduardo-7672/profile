@@ -33,7 +33,7 @@ body {
 }
 
 header {
-    background-color: #312af1;
+    background-color: rgb(23, 23, 26);
     margin-top: 3px;
     border-radius: 7px 7px 0px 0px;
     width: 90vw;
@@ -50,7 +50,7 @@ header>h1 {
 }
 
 #burger {
-    background-color: #312af1;
+    background-color: white;
     display: block;
     color: whitesmoke;
     text-align: center;
@@ -82,7 +82,7 @@ menu>ul>li>a {
     padding: 7px;
     text-decoration: none;
     text-align: center;
-    background-color: #312af1;
+    /* background-color: white; */
     border-radius: 0px 0px 0px 0px;
     color: whitesmoke;
     margin: auto;
@@ -97,7 +97,7 @@ menu>ul>li>a:hover {
 
 
 main {
-    background-color: #c5a898;
+    background-color: rgb(222, 218, 240);
     width: 90vw;
     margin: auto;
     border-radius: 7px 7px 0px 0px;
@@ -119,7 +119,7 @@ article>p {
 }
 
 footer {
-    background-color: #c5a898;
+    background-color: rgb(222, 218, 240);
     text-align: center;
     border-radius: 0px 0px 7px 7px;
     width: 90vw;
@@ -178,12 +178,12 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
         display: block;
         width: 90vw;
         margin: auto;
-        background-color: #21203f;
+        background-color:rgb(23, 23, 26);
     }
 
     menu>ul>li {
         display: inline-block;
-        background-color: #21203f;
+        background-color: rgb(23, 23, 26);
 
     }
 
@@ -249,12 +249,12 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
 
     menu {
         display: block;
-        background-color: #21203f;
+        background-color: rgb(23, 23, 26);
     }
 
     menu>ul>li {
         display: inline-block;
-        background-color: #21203f;
+        background-color: rgb(23, 23, 26);
     }
 
     main {
@@ -323,12 +323,12 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
 
     menu {
         display: block;
-        background-color: #312af1;
+        background-color: rgb(23, 23, 26);
     }
 
     menu>ul>li {
         display: inline-block;
-        background-color: #312af1;
+        background-color: rgb(23, 23, 26);
     }
 
     main {
@@ -350,18 +350,11 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
         width: 90vw;
         margin: auto;
     }
-    
-    .container {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-    }
 
     img {
-        width: 450px;
-        height: 70%;
-        padding: 15px;
-        margin: -5px;
+        width: 75%;
+        height: 60%;
+        padding: 35px;
     }
 
     img#mobile {
