@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Hub All</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <header>
+        <h1>Git Hub</h1>
+    </header>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* calcular a borda em relação ao tamanho.*/
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        html {
+            /* height: 50vw; */
+            margin: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            /* background-color: #7b167a; */
+            background-image: linear-gradient(to bottom, #7b167a, #5c105b, #3d0b3d, #1f051e, #000000);
+        }
+
+        header {
+            background-color: #8a0287;
+            margin-top: 3px;
+            border-radius: 7px 7px 0px 0px;
+            width: 90vw;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        header>h1 {
+            text-align: center;
+            color: whitesmoke;
+            padding: 7px;
+            text-shadow: #a020f0 1px 1px 10px;
+            margin-top: 17px;
+            margin: auto;
+
+        }
+
+        #burger {
+            background-color: #7b167a;
+            display: block;
+            color: whitesmoke;
+            text-align: center;
+            margin: auto;
+            padding: 7px;
+            width: 90vw;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+        #burger:hover {
+            background-color: #a020f0;
+        }
+
+        menu {
+            display: flex;
+            color: whitesmoke;
+            text-align: center;
+            list-style-type: none;
+            width: 90vw;
+            margin: auto;
+            display: none;
+        }
+
+        menu>ul {
+            list-style-type: none;
+        }
+
+        menu>ul>li>a {
+            display: block;
+            padding: 7px;
+            text-decoration: none;
+            text-align: center;
+            background-color: #7b167a;
+            border-radius: 0px 0px 0px 0px;
+            color: whitesmoke;
+            margin: auto;
+            border-radius: 4px;
+        }
+
+        menu>ul>li>a:hover {
+            background-color: #a020f0;
+            color: whitesmoke;
+            text-decoration: none;
+        }
+
+        main {
+            background-image: linear-gradient(to bottom, #7b167a, #5c105b, #3d0b3d, #1f051e, #000000);
+            width: 90vw;
+            margin: auto;
+            border-radius: 7px 7px 0px 0px;
+            margin-top: 7px;
+            padding: 3px;
+            border-radius: 4px;
+        }
+
+        article>h2 {
+            color: whitesmoke;
+            padding: 3px;
+            text-shadow: #a020f0 1px 1px 10px;
+            margin-top: 17px;
+        }
+
+        article>p {
+            text-align: justify;
+            margin-bottom: 17px;
+            text-indent: 17px;
+            color: #eccdff;
+            padding: 5px;
+        }
+
+        article>h3 {
+            color: rgb(241, 216, 255);
+            padding: 3px;
+            /* text-shadow: #a020f0 1px 1px 10px; */
+            margin-top: 17px;
+        }
+
+        footer {
+            text-align: center;
+            color: rgb(241, 216, 255);
+        }
+
+        img {
+            display: block;
+            width: 500px;
+            height: 80% auto;
+            justify-self: center;
+            margin: auto;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!-- Usar paleta de cores ROXA "#a020f0" -->
+    <!-- Usar ferramentas de IA -->
+
+    <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
+        menu
+    </span>
+
+    <menu id="itens">
+
+        <ul>
+            <li><a href="cleancode.html">Clean Code</a></li>
+            <li><a href="githuball.html">GitHub</a></li>
+        </ul>
+
+    </menu>
+
+    <main>
+
+        <img src="./assets/images/GitHub.png" alt="Clean Code" id="Clean">
+        <article>
+            <h2></h2>
+            <p>
+                O GitHub é uma plataforma online que combina o controle de versão baseado no Git com funcionalidades
+                para hospedagem e colaboração em projetos de desenvolvimento de software. Ele é amplamente utilizado por
+                desenvolvedores e equipes para armazenar, compartilhar, revisar e colaborar em código. Aqui estão os
+                principais aspectos do GitHub:
+            </p>
+
+            <P>
+                1. Controle de versão com Git
+                O GitHub utiliza o Git, um sistema de controle de versão distribuído, para rastrear alterações no
+                código. Isso permite que múltiplos desenvolvedores colaborem simultaneamente, garantindo que todas as
+                versões e alterações sejam registradas.
+
+                Branching e merging: Permite criar ramificações independentes do código para testar novos recursos ou
+                corrigir bugs, unindo-as ao projeto principal após validação.
+                Histórico de commits: Mostra as alterações feitas ao longo do tempo, com detalhes sobre quem fez a
+                mudança e por quê.
+            </P>
+
+            <p>
+                2. Hospedagem de repositórios
+                O GitHub permite armazenar repositórios (ou "repos") de forma pública ou privada.
+
+                Repos públicos: Qualquer pessoa pode visualizar, ideal para projetos de código aberto.
+                Repos privados: Somente usuários autorizados têm acesso, ideal para projetos internos ou confidenciais.
+            </p>
+
+            <P>
+                3. Colaboração
+                GitHub oferece várias ferramentas para facilitar o trabalho em equipe:
+
+                Pull Requests (PRs): Um método para sugerir alterações em um projeto. Outros membros podem revisar,
+                discutir e aprovar antes da fusão com o código principal.
+                Issues: Permite rastrear bugs, ideias e tarefas, ajudando no gerenciamento do projeto.
+                Wiki e documentação: Inclui páginas de documentação diretamente no repositório.
+            </P>
+
+            <p>
+                4. Integrações e automação
+                GitHub Actions: Automatiza fluxos de trabalho, como testes, implantações e outras tarefas repetitivas.
+                Integrações com ferramentas externas: Funciona com IDEs, serviços de CI/CD, ferramentas de
+                monitoramento, etc.
+            </p>
+
+            <p>
+                5. Comunidade e aprendizado
+                O GitHub é um centro para projetos de código aberto, com milhões de repositórios disponíveis.
+                Desenvolvedores podem explorar, aprender com o código de outros e contribuir para projetos conhecidos.
+
+                GitHub Pages: Permite hospedar sites estáticos diretamente a partir de um repositório.
+                GitHub Copilot: Assistente de programação alimentado por inteligência artificial.
+            </p>
+
+
+            <h2>Benefícios</h2>
+
+            <p>
+                Escalável para equipes de qualquer tamanho.
+                Acesso global, permitindo colaboração remota.
+                Ferramentas robustas para gerenciar projetos e rastrear progresso.
+            </p>
+
+        </article>
+
+    </main>
+    <footer>
+        @Eduardo - 2024
+    </footer>
+</body>
+<script src="./assets/js/scriptmq.js"></script>
+
+</html>

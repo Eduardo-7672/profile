@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Clode</title>
+    <link rel="shortcut icon" href="./assets/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <header>
+        <h1>Clean Code</h1>
+    </header>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            /* calcular a borda em relação ao tamanho.*/
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        html {
+            /* height: 100vw; */
+            margin: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            /* background-color: #7b167a; */
+            background-image: linear-gradient(to bottom, #7b167a, #5c105b, #3d0b3d, #1f051e, #000000);
+            /* height: auto; */
+        }
+
+        header {
+            background-color: #8a0287;
+            margin-top: 3px;
+            border-radius: 7px 7px 0px 0px;
+            width: 90vw;
+            margin: auto;
+            border-radius: 10px;
+        }
+
+        header>h1 {
+            text-align: center;
+            color: whitesmoke;
+            padding: 7px;
+            text-shadow: #a020f0 1px 1px 10px;
+            margin-top: 17px;
+            margin: auto;
+
+        }
+
+        #burger {
+            background-color: #7b167a;
+            display: block;
+            color: whitesmoke;
+            text-align: center;
+            margin: auto;
+            padding: 7px;
+            width: 90vw;
+            cursor: pointer;
+            border-radius: 10px;
+        }
+
+        #burger:hover {
+            background-color: #a020f0;
+        }
+
+        menu {
+            display: flex;
+            color: whitesmoke;
+            text-align: center;
+            list-style-type: none;
+            width: 90vw;
+            margin: auto;
+            display: none;
+        }
+
+        menu>ul {
+            list-style-type: none;
+        }
+
+        menu>ul>li>a {
+            display: block;
+            padding: 7px;
+            text-decoration: none;
+            text-align: center;
+            background-color: #7b167a;
+            border-radius: 0px 0px 0px 0px;
+            color: whitesmoke;
+            margin: auto;
+            border-radius: 4px;
+        }
+
+        menu>ul>li>a:hover {
+            background-color: #a020f0;
+            color: whitesmoke;
+            text-decoration: none;
+        }
+
+        main {
+            background-image: linear-gradient(to bottom, #7b167a, #5c105b, #3d0b3d, #1f051e, #000000);   
+            width: 90vw;
+            margin: auto;
+            border-radius: 7px 7px 0px 0px;
+            margin-top: 7px;
+            padding: 3px;
+            border-radius: 4px;
+        }
+
+        article>h2 {
+            color: whitesmoke;
+            padding: 3px;
+            text-shadow: #a020f0 1px 1px 10px;
+            margin-top: 17px;
+        }
+
+        article>p {
+            text-align: justify;
+            margin-bottom: 17px;
+            text-indent: 17px;
+            color: #eccdff;
+            padding: 5px;
+        }
+
+        article>h3 {
+            color: rgb(241, 216, 255);
+            padding: 3px;
+            text-shadow: #a020f0 1px 1px 10px;
+            margin-top: 17px;
+        }
+
+        footer {
+            text-align: center;
+            color: rgb(241, 216, 255);
+        }
+
+        img {
+            display: block;
+            width: 500px;
+            height: 80% auto;
+            justify-self: center;
+            margin: auto;
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <!-- Usar paleta de cores ROXA "#a020f0" -->
+    <!-- Usar ferramentas de IA -->
+
+    <span id="burger" class="material-symbols-outlined" onclick="clickMenu()">
+        menu
+    </span>
+
+    <menu id="itens">
+        <ul>
+            <li><a href="cleancode.html">Clean Code</a></li>
+            <li><a href="githuball.html">GitHub</a></li>
+        </ul>
+    </menu>
+    <main>
+
+        <img src="./assets/images/Clean-Code.png" alt="Clean Code" id="Clean">
+        <article>
+            <h2></h2>
+            <p>
+                Clean Code (em português, "Código Limpo") é um conjunto de princípios e práticas de desenvolvimento de
+                software que visa tornar o código mais legível, compreensível e fácil de manter. O conceito foi
+                popularizado
+                pelo livro Clean Code: A Handbook of Agile Software Craftsmanship de Robert C. Martin, também conhecido
+                como
+                "Uncle Bob". O objetivo é escrever um código que não só funcione, mas que seja fácil de entender,
+                modificar
+                e estender no futuro, facilitando a colaboração entre desenvolvedores e evitando que o código se torne
+                um
+                "monstro" difícil de lidar.
+            </p>
+
+            <h3>
+                Aqui estão alguns dos princípios e práticas-chave de Clean Code:
+            </h3>
+
+            <p>
+                1. Legibilidade é Prioridade
+                O código deve ser fácil de ler e entender por outros desenvolvedores (ou você mesmo, no futuro). Isso
+                significa usar nomes de variáveis, funções e classes que descrevam claramente o que estão fazendo. Um
+                código
+                bem escrito é quase autoexplicativo.
+                Exemplo: Em vez de usar nomes como x ou y, prefira nomes mais descritivos como totalDeItens ou
+                precoProduto.
+            </p>
+
+            <p>
+                2. Funções Pequenas e Coesas
+                Funções devem ser pequenas e realizar apenas uma tarefa específica. Isso melhora a legibilidade e
+                facilita a
+                reutilização de código. Uma função deve ser coesa, ou seja, seu nome e o que ela faz devem estar
+                diretamente
+                relacionados.
+                Exemplo: Em vez de ter uma função chamada processarDados, que faz muitas coisas, crie funções menores e
+                mais
+                específicas como validarEntrada(), calcularDesconto(), e formatarResultado().
+            </p>
+
+            <P>
+                3. Evitar Código Duplicado
+                Código duplicado é um dos maiores inimigos da manutenção de software. Se um trecho de código é utilizado
+                em
+                vários lugares, é um sinal de que pode ser extraído para uma função ou método reutilizável.
+                Exemplo: Se você tem a mesma lógica de validação em vários lugares, centralize-a em uma função que possa
+                ser
+                chamada sempre que necessário.
+            </P>
+
+            <p>
+                4. Evitar Comentários Desnecessários
+                Comentários são importantes, mas o código deve ser o mais autoexplicativo possível. Comentários podem
+                ser
+                usados para explicar por que algo é feito de determinada forma, mas o código em si deve ser claro o
+                suficiente para explicar o que está sendo feito.
+                Exemplo: Evite escrever comentários como // incrementa i, quando o próprio nome da variável e a operação
+                i++
+                já são bastante claros.
+            </p>
+
+            <p>
+                5. Usar Nomes Significativos
+                Como mencionado, nomes de variáveis, funções e classes devem ser significativos. Um nome deve refletir o
+                que
+                o elemento representa ou faz.
+                Exemplo: Em vez de a ou b, use precoTotal ou quantidadeDeItens, dependendo do contexto.
+            </p>
+
+            <P>
+                6. Manter a Simplicidade
+                Código complexo deve ser evitado. Ao escrever código, procure a solução mais simples possível. Não tente
+                implementar funcionalidades que não são necessárias ou usar abordagens complicadas quando uma solução
+                simples resolve o problema.
+                Exemplo: Evite usar uma estrutura de dados muito complexa se uma estrutura mais simples (como um array
+                ou
+                lista) pode resolver o problema de forma mais eficiente.
+            </P>
+
+            <P>
+                7. Testabilidade
+                Código limpo deve ser testável. Isso significa escrever funções e classes que sejam facilmente testáveis
+                de
+                forma isolada. Boas práticas de design, como a injeção de dependências, ajudam a alcançar isso.
+                Exemplo: Se a lógica de negócios depende de uma API externa, passe essa dependência para a função ou
+                classe
+                para que ela possa ser mockada durante os testes.
+            </P>
+
+            <P>
+                8. Manter Funções com Uma Única Responsabilidade
+                Cada função ou método deve ter uma única responsabilidade ou tarefa. Isso é conhecido como o Princípio
+                da
+                Responsabilidade Única (Single Responsibility Principle - SRP), um dos princípios SOLID de design de
+                software.
+                Exemplo: Se uma função está realizando mais de uma tarefa, ela deve ser dividida em funções menores,
+                cada
+                uma com uma única responsabilidade.
+            </P>
+
+            <P>
+                9. Evitar Longas Funções e Métodos
+                Funções e métodos devem ser curtos. O código mais simples e direto tende a ser mais fácil de entender e
+                manter. Uma função que ultrapassa 20 ou 30 linhas pode estar fazendo mais do que deveria.
+                Exemplo: Quebre funções longas em várias menores que podem ser combinadas de maneira lógica.
+            </P>
+
+            <P>
+                10. Refatoração Contínua
+                Refatoração é o processo de melhorar o código sem alterar seu comportamento. Em um código limpo, a
+                refatoração é uma prática constante. Isso é essencial para evitar que o código se torne obsoleto ou
+                difícil
+                de modificar com o tempo.
+                Exemplo: Se você perceber que uma parte do código pode ser melhorada, refatore-a para torná-la mais
+                simples
+                e eficiente.
+            </P>
+
+            <p>
+                11. Evitar Efeitos Colaterais
+                Efeitos colaterais indesejados ocorrem quando uma função altera o estado global ou afeta outras partes
+                do
+                sistema de maneira inesperada. O código deve ser projetado para ser o mais isolado possível.
+                Exemplo: Em vez de modificar uma variável global dentro de uma função, retorne um valor que possa ser
+                usado
+                em outro lugar, sem efeitos inesperados.
+            </p>
+
+            <p>
+                12. Manter uma Estrutura Consistente
+                A consistência na estrutura do código é essencial. Isso inclui a maneira como as funções são
+                organizadas,
+                como os nomes das variáveis são escolhidos e a formatação do código. Um estilo consistente torna o
+                código
+                mais legível e facilita a colaboração.
+            </p>
+
+            <h2>Conclusão</h2>
+
+            <p>
+                O Clean Code não é apenas sobre ter um código que funcione, mas sim sobre ter um código que seja fácil
+                de
+                entender, modificar e manter. Ao seguir os princípios do Clean Code, os desenvolvedores podem criar
+                sistemas
+                mais robustos, com menor probabilidade de introduzir erros e que sejam mais fáceis de escalar ou
+                estender no
+                futuro.
+
+                Além disso, o conceito de Clean Code vai muito além da escrita de código. Ele envolve uma mentalidade
+                contínua de melhoria e de compromisso com a qualidade do software, o que resulta em maior eficiência e
+                menor
+                frustração para os desenvolvedores no longo prazo.
+
+                Se precisar de mais detalhes ou exemplos específicos de algum ponto, estou à disposição para ajudar!
+            </p>
+
+        </article>
+
+    </main>
+    <footer>
+        @Eduardo - 2024
+    </footer>
+</body>
+<script src="./assets/js/scriptmq.js"></script>
+
+</html>
