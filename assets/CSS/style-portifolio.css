@@ -121,7 +121,7 @@ article>h2 {
 
 article>p {
     text-align: justify;
-    margin-bottom: 17px;
+    margin-bottom: 20px;
     text-indent: 17px;
     color: rgb(250, 231, 231);
 }
@@ -223,7 +223,7 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
 
     article>p {
         text-align: justify;
-        margin-bottom: 17px;
+        margin-bottom: 20px;
         text-indent: 17px;
         color: rgb(250, 231, 231);
     }
@@ -307,7 +307,7 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
 
     article>p {
         text-align: justify;
-        margin-bottom: 17px;
+        margin-bottom: 20px;
         text-indent: 17px;
         text-align: center;
         color: rgb(250, 231, 231);
@@ -393,7 +393,7 @@ deixando assim o menu burger oculto, forçando assim o menu aparecendo inline-bl
 
     article>p {
         text-align:left;
-        margin-bottom: 17px;
+        margin-bottom: 20px;
         text-indent: 17px;
         text-align: center;
         color: rgb(250, 231, 231);
